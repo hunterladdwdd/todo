@@ -7,6 +7,7 @@ indicate completeness of tasks, and remove a task.
 <h2>Working<h2>
 <ul>
     <li>Toggle completeness of stock tasks by clicking on the "Complete" button</li>
+    <li>Rendering all the components</li>
 </ul>
 
 <h2>Not Working</h2>
