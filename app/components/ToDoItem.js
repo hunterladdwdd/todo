@@ -12,12 +12,10 @@ export class ToDoItem extends Component {
   }
 
   // Updates the completeness of the item
+  // Perfect implementation
   toggleCompleteness() {
-    if (this.state.isComplete == true) {
-      this.setState({isComplete: false});
-    } else {
-      this.setState({isComplete: true});
-    }
+    const newCompletedStatus = this.state.isComplete == true ? false : true;
+    this.setState({isComplete: newCompletedStatus});
   }
 
   // Adds a disabled class to the list element
